@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005F0B23E18337DA88037B1EFA8B4747 /* Pods-HappyMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F508988200EA3E8D8195FBD5B4ABCF28 /* Pods-HappyMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37576ED549708F64559F4C4C4CFA2456 /* Pods-HappyMapTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADED0CCD5D793B4F08CCFDCA09ADE9E /* Pods-HappyMapTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E9C48F79F8F4B32F5233F6A58C40959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5A3C83D7AA2B012651642080E0622A9C /* Pods-HappyMapTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D906C2ED468AF0CA2A5C6873B528F77 /* Pods-HappyMapTests-dummy.m */; };
+		633EB7008BD0ECABBBA99DC5147AD943 /* Pods-HappyMapUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47145E7E99B84B020C0FBDF7C4F43285 /* Pods-HappyMapUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BB598960A92A8C5F719D5F26442A52C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		97F0B31757122A0759EC25650E684A5D /* Pods-HappyMapUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F43E9CBA4E63A18F9E827CF9A38B40DC /* Pods-HappyMapUITests-dummy.m */; };
+		C2992FF7BA08306F070439E2E77A6AC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EA4C47B9BBBFBD62463D75E35655CA44 /* Pods-HappyMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9424513DAC545DC3AE18C5882C849B /* Pods-HappyMap-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D10D58655251D4EB0F3E29F32422892A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A949345A6E652069486C827800965560;
+			remoteInfo = "Pods-HappyMap";
+		};
+		FCC493BA0B09FD95EE9BD8D65AEBA61E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A949345A6E652069486C827800965560;
+			remoteInfo = "Pods-HappyMap";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11D439857D1FEFA06B5EC3496898123E /* Pods-HappyMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyMap.release.xcconfig"; sourceTree = "<group>"; };
+		12FDF3228710741F4181F53D1489DACD /* Pods-HappyMapTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyMapTests-Info.plist"; sourceTree = "<group>"; };
+		19C90E68AE25E375F4BB852DCC730DAB /* Pods_HappyMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HappyMapTests.framework; path = "Pods-HappyMapTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADED0CCD5D793B4F08CCFDCA09ADE9E /* Pods-HappyMapTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HappyMapTests-umbrella.h"; sourceTree = "<group>"; };
+		1E5274D5AD773DEB116E4E1488672739 /* Pods-HappyMapTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyMapTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		31B40CBC8D00B4E4A6418E74DEA08E3B /* Pods-HappyMapUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyMapUITests-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41166DDDE848B7CE67F66FD9708BE237 /* Pods-HappyMap-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyMap-acknowledgements.plist"; sourceTree = "<group>"; };
+		47145E7E99B84B020C0FBDF7C4F43285 /* Pods-HappyMapUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HappyMapUITests-umbrella.h"; sourceTree = "<group>"; };
+		57DCF12E6B61BB9CE6032D41454B510D /* Pods-HappyMap-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HappyMap-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D906C2ED468AF0CA2A5C6873B528F77 /* Pods-HappyMapTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HappyMapTests-dummy.m"; sourceTree = "<group>"; };
+		72104504FD6C11BC48EBEA067FD22EE9 /* Pods-HappyMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		85D40B9A772A2E65BE2FB1A11C7F2A76 /* Pods-HappyMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HappyMap.modulemap"; sourceTree = "<group>"; };
+		8C21289F608B004CB6AD1AFA9DB44552 /* Pods-HappyMapTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HappyMapTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		97574BC524D8F52EFB138E1233AB4612 /* Pods-HappyMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99A4D55115BD316C72BEFF82509F3814 /* Pods-HappyMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyMap.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9424513DAC545DC3AE18C5882C849B /* Pods-HappyMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HappyMap-dummy.m"; sourceTree = "<group>"; };
+		9FF740A2884E5BD63F93B72B84E37B15 /* Pods-HappyMapUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HappyMapUITests.modulemap"; sourceTree = "<group>"; };
+		A4CAF3A05B8844784B5D5D2AC772A86A /* Pods-HappyMapUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyMapUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC8337E66405697CD00A7F48FB5079C7 /* Pods-HappyMapTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HappyMapTests.modulemap"; sourceTree = "<group>"; };
+		ACF4D4AFAB15C405FFB5B55DC776C6F1 /* Pods-HappyMapUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HappyMapUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C06D3A150FE49E8458082A85373A477B /* Pods-HappyMap-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyMap-Info.plist"; sourceTree = "<group>"; };
+		C3FF7B8230695369169BBBF012423B87 /* Pods-HappyMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD50F831FA1395909548E4D6DB3D1245 /* Pods_HappyMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HappyMap.framework; path = "Pods-HappyMap.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB857B5D5828B8908EA57CA86C421FE2 /* Pods-HappyMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyMapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F43E9CBA4E63A18F9E827CF9A38B40DC /* Pods-HappyMapUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HappyMapUITests-dummy.m"; sourceTree = "<group>"; };
+		F508988200EA3E8D8195FBD5B4ABCF28 /* Pods-HappyMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HappyMap-umbrella.h"; sourceTree = "<group>"; };
+		F894977CD0A290E8CC098708CB73AFD6 /* Pods_HappyMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HappyMapUITests.framework; path = "Pods-HappyMapUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DB3CF00329AC4B7C2B3998616962B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB598960A92A8C5F719D5F26442A52C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB18A9464B81C823EED1BA8B42A0007E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2992FF7BA08306F070439E2E77A6AC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6640E63061D1B2AD3551E4901D836CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9C48F79F8F4B32F5233F6A58C40959 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F013CBCC949405764CB00B35E8E98D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD50F831FA1395909548E4D6DB3D1245 /* Pods_HappyMap.framework */,
+				19C90E68AE25E375F4BB852DCC730DAB /* Pods_HappyMapTests.framework */,
+				F894977CD0A290E8CC098708CB73AFD6 /* Pods_HappyMapUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E86E8BDC78C45E6EEDE4D8A49BAA975 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4DBAB77C73345515DD4E518916FC731 /* Pods-HappyMap */,
+				A1D2AB029D1DEC9BCD3C1CFD6F51D20C /* Pods-HappyMapTests */,
+				A711554501B0EEB16A82D5ED2CA5E693 /* Pods-HappyMapUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A1D2AB029D1DEC9BCD3C1CFD6F51D20C /* Pods-HappyMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC8337E66405697CD00A7F48FB5079C7 /* Pods-HappyMapTests.modulemap */,
+				8C21289F608B004CB6AD1AFA9DB44552 /* Pods-HappyMapTests-acknowledgements.markdown */,
+				1E5274D5AD773DEB116E4E1488672739 /* Pods-HappyMapTests-acknowledgements.plist */,
+				5D906C2ED468AF0CA2A5C6873B528F77 /* Pods-HappyMapTests-dummy.m */,
+				12FDF3228710741F4181F53D1489DACD /* Pods-HappyMapTests-Info.plist */,
+				1ADED0CCD5D793B4F08CCFDCA09ADE9E /* Pods-HappyMapTests-umbrella.h */,
+				97574BC524D8F52EFB138E1233AB4612 /* Pods-HappyMapTests.debug.xcconfig */,
+				C3FF7B8230695369169BBBF012423B87 /* Pods-HappyMapTests.release.xcconfig */,
+			);
+			name = "Pods-HappyMapTests";
+			path = "Target Support Files/Pods-HappyMapTests";
+			sourceTree = "<group>";
+		};
+		A711554501B0EEB16A82D5ED2CA5E693 /* Pods-HappyMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FF740A2884E5BD63F93B72B84E37B15 /* Pods-HappyMapUITests.modulemap */,
+				ACF4D4AFAB15C405FFB5B55DC776C6F1 /* Pods-HappyMapUITests-acknowledgements.markdown */,
+				A4CAF3A05B8844784B5D5D2AC772A86A /* Pods-HappyMapUITests-acknowledgements.plist */,
+				F43E9CBA4E63A18F9E827CF9A38B40DC /* Pods-HappyMapUITests-dummy.m */,
+				31B40CBC8D00B4E4A6418E74DEA08E3B /* Pods-HappyMapUITests-Info.plist */,
+				47145E7E99B84B020C0FBDF7C4F43285 /* Pods-HappyMapUITests-umbrella.h */,
+				72104504FD6C11BC48EBEA067FD22EE9 /* Pods-HappyMapUITests.debug.xcconfig */,
+				EB857B5D5828B8908EA57CA86C421FE2 /* Pods-HappyMapUITests.release.xcconfig */,
+			);
+			name = "Pods-HappyMapUITests";
+			path = "Target Support Files/Pods-HappyMapUITests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4DBAB77C73345515DD4E518916FC731 /* Pods-HappyMap */ = {
+			isa = PBXGroup;
+			children = (
+				85D40B9A772A2E65BE2FB1A11C7F2A76 /* Pods-HappyMap.modulemap */,
+				57DCF12E6B61BB9CE6032D41454B510D /* Pods-HappyMap-acknowledgements.markdown */,
+				41166DDDE848B7CE67F66FD9708BE237 /* Pods-HappyMap-acknowledgements.plist */,
+				9D9424513DAC545DC3AE18C5882C849B /* Pods-HappyMap-dummy.m */,
+				C06D3A150FE49E8458082A85373A477B /* Pods-HappyMap-Info.plist */,
+				F508988200EA3E8D8195FBD5B4ABCF28 /* Pods-HappyMap-umbrella.h */,
+				99A4D55115BD316C72BEFF82509F3814 /* Pods-HappyMap.debug.xcconfig */,
+				11D439857D1FEFA06B5EC3496898123E /* Pods-HappyMap.release.xcconfig */,
+			);
+			name = "Pods-HappyMap";
+			path = "Target Support Files/Pods-HappyMap";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				01F013CBCC949405764CB00B35E8E98D /* Products */,
+				6E86E8BDC78C45E6EEDE4D8A49BAA975 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		328A6989950969B477F46D9CFDF2B978 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37576ED549708F64559F4C4C4CFA2456 /* Pods-HappyMapTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715E5198BCC5F5E89E2C83C7C9947F54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005F0B23E18337DA88037B1EFA8B4747 /* Pods-HappyMap-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C203C6E84C38D4A853102A997ACE8364 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633EB7008BD0ECABBBA99DC5147AD943 /* Pods-HappyMapUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		714D49025374710C99C9FB7410A81E29 /* Pods-HappyMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C3155F46C2D184EEABCA385B56A759 /* Build configuration list for PBXNativeTarget "Pods-HappyMapUITests" */;
+			buildPhases = (
+				C203C6E84C38D4A853102A997ACE8364 /* Headers */,
+				CB0545860BEB9E848C27B392162DE927 /* Sources */,
+				AB18A9464B81C823EED1BA8B42A0007E /* Frameworks */,
+				7CA0D7B24A95AEE94225909ED2EA8AB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1DF13941FE0C41F5BAC11051D30C5F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-HappyMapUITests";
+			productName = "Pods-HappyMapUITests";
+			productReference = F894977CD0A290E8CC098708CB73AFD6 /* Pods_HappyMapUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A949345A6E652069486C827800965560 /* Pods-HappyMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C801A3065D46409F48C09C0360D74C8 /* Build configuration list for PBXNativeTarget "Pods-HappyMap" */;
+			buildPhases = (
+				715E5198BCC5F5E89E2C83C7C9947F54 /* Headers */,
+				1E655C7258AB981F7F7B374BB23055BE /* Sources */,
+				C6640E63061D1B2AD3551E4901D836CE /* Frameworks */,
+				4F85F7D32817C43C13C81D2DE82BDF5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HappyMap";
+			productName = "Pods-HappyMap";
+			productReference = CD50F831FA1395909548E4D6DB3D1245 /* Pods_HappyMap.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD0007A7A26B3EC3E35F6A214971AD8A /* Pods-HappyMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E172E03F69B88F671DEFB4D75BFE34 /* Build configuration list for PBXNativeTarget "Pods-HappyMapTests" */;
+			buildPhases = (
+				328A6989950969B477F46D9CFDF2B978 /* Headers */,
+				92291350D33D36E7C096E49B4670A4E1 /* Sources */,
+				9DB3CF00329AC4B7C2B3998616962B8A /* Frameworks */,
+				D1821D4BC59A41D6A778BACF5CED17B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAD2A217B2315312BADACB2FBFA014A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-HappyMapTests";
+			productName = "Pods-HappyMapTests";
+			productReference = 19C90E68AE25E375F4BB852DCC730DAB /* Pods_HappyMapTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 01F013CBCC949405764CB00B35E8E98D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A949345A6E652069486C827800965560 /* Pods-HappyMap */,
+				CD0007A7A26B3EC3E35F6A214971AD8A /* Pods-HappyMapTests */,
+				714D49025374710C99C9FB7410A81E29 /* Pods-HappyMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F85F7D32817C43C13C81D2DE82BDF5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA0D7B24A95AEE94225909ED2EA8AB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1821D4BC59A41D6A778BACF5CED17B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E655C7258AB981F7F7B374BB23055BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4C47B9BBBFBD62463D75E35655CA44 /* Pods-HappyMap-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92291350D33D36E7C096E49B4670A4E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3C83D7AA2B012651642080E0622A9C /* Pods-HappyMapTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0545860BEB9E848C27B392162DE927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F0B31757122A0759EC25650E684A5D /* Pods-HappyMapUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1DF13941FE0C41F5BAC11051D30C5F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HappyMap";
+			target = A949345A6E652069486C827800965560 /* Pods-HappyMap */;
+			targetProxy = D10D58655251D4EB0F3E29F32422892A /* PBXContainerItemProxy */;
+		};
+		BAD2A217B2315312BADACB2FBFA014A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HappyMap";
+			target = A949345A6E652069486C827800965560 /* Pods-HappyMap */;
+			targetProxy = FCC493BA0B09FD95EE9BD8D65AEBA61E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B6674809C89E2A6D4349E58AB79E0C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A4D55115BD316C72BEFF82509F3814 /* Pods-HappyMap.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HappyMap/Pods-HappyMap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HappyMap/Pods-HappyMap.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FFECFC9D300E3062ACF5D1B6D11647F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB857B5D5828B8908EA57CA86C421FE2 /* Pods-HappyMapUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HappyMapUITests/Pods-HappyMapUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HappyMapUITests/Pods-HappyMapUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AB03034C41C950667A3715E3E85D9323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3FF7B8230695369169BBBF012423B87 /* Pods-HappyMapTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HappyMapTests/Pods-HappyMapTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HappyMapTests/Pods-HappyMapTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF96E792D2DCF40F03466FF49CB506F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D439857D1FEFA06B5EC3496898123E /* Pods-HappyMap.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HappyMap/Pods-HappyMap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HappyMap/Pods-HappyMap.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9367BAB82EA3B6AAF961E073BD2FC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97574BC524D8F52EFB138E1233AB4612 /* Pods-HappyMapTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HappyMapTests/Pods-HappyMapTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HappyMapTests/Pods-HappyMapTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C28276B08BF6CA29FCFDE0074BC6D44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72104504FD6C11BC48EBEA067FD22EE9 /* Pods-HappyMapUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HappyMapUITests/Pods-HappyMapUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HappyMapUITests/Pods-HappyMapUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C801A3065D46409F48C09C0360D74C8 /* Build configuration list for PBXNativeTarget "Pods-HappyMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6674809C89E2A6D4349E58AB79E0C8 /* Debug */,
+				AF96E792D2DCF40F03466FF49CB506F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E172E03F69B88F671DEFB4D75BFE34 /* Build configuration list for PBXNativeTarget "Pods-HappyMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9367BAB82EA3B6AAF961E073BD2FC01 /* Debug */,
+				AB03034C41C950667A3715E3E85D9323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C3155F46C2D184EEABCA385B56A759 /* Build configuration list for PBXNativeTarget "Pods-HappyMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28276B08BF6CA29FCFDE0074BC6D44B /* Debug */,
+				3FFECFC9D300E3062ACF5D1B6D11647F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
